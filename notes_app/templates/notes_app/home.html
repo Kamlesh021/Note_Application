@@ -1,0 +1,23 @@
+<!-- notes_app/templates/notes_app/home.html -->
+<h1><center>Welcome to the Notes Application</center></h1>
+<!--<p><a href="{% url 'add_task' %}">Add a New Task</a></p>
+<p><a href="{% url 'view_tasks' %}">View All Tasks</a></p> -->
+
+
+<a href="{% url 'add_task' %}" style="display: inline-block; margin-top: 20px; padding: 10px 15px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">
+    Add New Note
+</a>
+
+
+<a href="{% url 'view_tasks' %}" style="display: inline-block; margin-top: 20px; padding: 10px 15px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">
+    View your Notes
+</a>
+
+<a href="{% url 'update_tasks' %}" style="display: inline-block; margin-top: 20px; padding: 10px 15px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">
+    Update your Notes
+</a>
+<a href="{% url 'delete_tasks' %}" style="display: inline-block; margin-top: 20px; padding: 10px 15px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">
+    Delete your Notes
+</a>
+
+
